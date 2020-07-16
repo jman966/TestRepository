@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class TestScript : MonoBehaviour
 {
@@ -13,6 +14,6 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("An expert programmer wrote this line of code.")
+        Debug.Log("An expert programmer wrote this line of code.");
     }
 }
